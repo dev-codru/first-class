@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+/* Mobile Responsive Styling */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
